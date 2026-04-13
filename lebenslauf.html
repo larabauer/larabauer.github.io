@@ -1,3 +1,130 @@
-<h1>Das ist ein Lebenslauf</h1>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>Lara – Lebenslauf</title>
 
-<p>wow</p>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="dist/reset.css" />
+	<link rel="stylesheet" href="dist/reveal.css" />
+	<link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+	<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- TITEL -->
+			<section>
+				<h1>Lara</h1>
+				<h3>Mein Lebenslauf</h3>
+				<p>💻 IT • 🎮 Gaming • 🚀 Motivation</p>
+			</section>
+
+			<!-- ÜBER MICH -->
+			<section>
+				<h2>Über mich</h2>
+				<p>
+					Ich bin Lara und interessiere mich für Technik, Programmieren und Gaming.
+					Ich lerne schnell, arbeite gerne im Team und probiere neue Dinge aus.
+				</p>
+			</section>
+
+			<!-- DATEN -->
+			<section>
+				<h2>Persönliche Daten</h2>
+				<ul>
+					<li>Geboren: 2008</li>
+					<li>Wohnort: Österreich</li>
+					<li>Sprachen: Deutsch, Englisch</li>
+				</ul>
+			</section>
+
+			<!-- AUSBILDUNG -->
+			<section>
+				<h2>Ausbildung</h2>
+				<ul>
+					<li>Volksschule</li>
+					<li>Mittelschule / Gymnasium</li>
+					<li>IT-Ausbildung (aktuell)</li>
+				</ul>
+			</section>
+
+			<!-- FÄHIGKEITEN -->
+			<section>
+				<h2>Fähigkeiten</h2>
+				<ul>
+					<li class="fragment">HTML & CSS</li>
+					<li class="fragment">JavaScript Basics</li>
+					<li class="fragment">PC & Technik</li>
+					<li class="fragment">Teamarbeit</li>
+				</ul>
+			</section>
+
+			<!-- PROJEKTE -->
+			<section>
+				<h2>Projekte</h2>
+				<ul>
+					<li>Eigene Webseiten erstellt</li>
+					<li>Kleine Programme geschrieben</li>
+					<li>Reveal.js Präsentationen gebaut</li>
+				</ul>
+			</section>
+
+			<!-- HOBBYS -->
+			<section>
+				<h2>Hobbys</h2>
+				<ul>
+					<li>🎮 Gaming</li>
+					<li>💻 Programmieren</li>
+					<li>🎧 Musik</li>
+					<li>👥 Freunde</li>
+				</ul>
+			</section>
+
+			<!-- ZIELE -->
+			<section>
+				<h2>Ziele</h2>
+				<p>
+					Ich möchte später im IT-Bereich arbeiten und eigene Projekte oder Software entwickeln.
+				</p>
+			</section>
+
+			<!-- KONTAKT -->
+			<section>
+				<h2>Kontakt</h2>
+				<p>
+					E-Mail: Lara@example.com<br>
+					GitHub: github.com/deinname
+				</p>
+			</section>
+
+			<!-- ENDE -->
+			<section>
+				<h1>Danke fürs Zuhören 🙌</h1>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="dist/plugin/zoom.js"></script>
+	<script src="dist/plugin/notes.js"></script>
+	<script src="dist/plugin/search.js"></script>
+	<script src="dist/plugin/highlight.js"></script>
+
+	<script>
+		Reveal.initialize({
+			hash: true,
+			controls: true,
+			progress: true,
+			center: true,
+			transition: "slide",
+
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealHighlight],
+		});
+	</script>
+</body>
+</html>
